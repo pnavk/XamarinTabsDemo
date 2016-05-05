@@ -1,0 +1,250 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E8A7CAC0000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 321B894A0000000000000000 /* UIKit.framework */; };
+		56CFA0500000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE06A300000000000000000 /* MapKit.framework */; };
+		3FF9F58A0000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38B022800000000000000000 /* Foundation.framework */; };
+		3A86F10F0000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E17FDAD0000000000000000 /* CoreGraphics.framework */; };
+		38ED8DE60000000000000000 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C7E9A840000000000000000 /* Images.xcassets */; };
+		3C4BB7680000000000000000 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FDCC4060000000000000000 /* LaunchScreen.xib */; };
+		2FB699B10000000000000000 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3347A64F0000000000000000 /* MainStoryboard.storyboard */; };
+		3165AE720000000000000000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 34F6BB100000000000000000 /* Info.plist */; };
+		1A1D6AE10000000000000000 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1DAE777F0000000000000000 /* Entitlements.plist */; };
+		81548AF00000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = BA6554D00000000000000000 /* AppDelegate.h */; };
+		2619DF440000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AAEBE20000000000000000 /* AppDelegate.m */; };
+		7AF827700000000000000000 /* ViewController1.h in Sources */ = {isa = PBXBuildFile; fileRef = B408F1500000000000000000 /* ViewController1.h */; };
+		2073F7AD0000000000000000 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 2405044B0000000000000000 /* ViewController1.m */; };
+		104DCD580000000000000000 /* ViewController2.h in Sources */ = {isa = PBXBuildFile; fileRef = 13DED9F60000000000000000 /* ViewController2.h */; };
+		C89DD9E00000000000000000 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 101AEA3C0000000000000000 /* ViewController2.m */; };
+		3C63B3490000000000000000 /* ViewController3.h in Sources */ = {isa = PBXBuildFile; fileRef = 3FF4BFE70000000000000000 /* ViewController3.h */; };
+		350EB6F10000000000000000 /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 389FC38F0000000000000000 /* ViewController3.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13336A640000000000000000 /* InitalScreenDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "InitalScreenDemo.app"; path = "InitalScreenDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		321B894A0000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		8FE06A300000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MapKit.framework"; path = "System/Library/Frameworks/MapKit.framework"; sourceTree = SDKROOT; };
+		38B022800000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		3E17FDAD0000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		3C7E9A840000000000000000 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Images.xcassets"; path = "Images.xcassets"; sourceTree = "<group>"; };
+		3FDCC4060000000000000000 /* LaunchScreen.xib */ = {isa = PBXFileReference; name = "LaunchScreen.xib"; path = "LaunchScreen.xib"; sourceTree = "<group>"; };
+		3347A64F0000000000000000 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "MainStoryboard.storyboard"; path = "MainStoryboard.storyboard"; sourceTree = "<group>"; };
+		34F6BB100000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info.plist"; path = "Info.plist"; sourceTree = "<group>"; };
+		1DAE777F0000000000000000 /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Entitlements.plist"; path = "Entitlements.plist"; sourceTree = "<group>"; };
+		BA6554D00000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		29AAEBE20000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+		B408F1500000000000000000 /* ViewController1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ViewController1.h"; path = "ViewController1.h"; sourceTree = "<group>"; };
+		2405044B0000000000000000 /* ViewController1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "ViewController1.m"; path = "ViewController1.m"; sourceTree = "<group>"; };
+		13DED9F60000000000000000 /* ViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ViewController2.h"; path = "ViewController2.h"; sourceTree = "<group>"; };
+		101AEA3C0000000000000000 /* ViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "ViewController2.m"; path = "ViewController2.m"; sourceTree = "<group>"; };
+		3FF4BFE70000000000000000 /* ViewController3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ViewController3.h"; path = "ViewController3.h"; sourceTree = "<group>"; };
+		389FC38F0000000000000000 /* ViewController3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "ViewController3.m"; path = "ViewController3.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E19735A0000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E8A7CAC0000000000000000 /* UIKit.framework in Frameworks */,
+				56CFA0500000000000000000 /* MapKit.framework in Frameworks */,
+				3FF9F58A0000000000000000 /* Foundation.framework in Frameworks */,
+				3A86F10F0000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E32E4E80000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				28CC99340000000000000000 /* InitalScreenDemo */,
+				8E60AC200000000000000000 /* Frameworks */,
+				337FBF0E0000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		337FBF0E0000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13336A640000000000000000 /* InitalScreenDemo.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		8E60AC200000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				321B894A0000000000000000 /* UIKit.framework */,
+				8FE06A300000000000000000 /* MapKit.framework */,
+				38B022800000000000000000 /* Foundation.framework */,
+				3E17FDAD0000000000000000 /* CoreGraphics.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		28CC99340000000000000000 /* InitalScreenDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BA6554D00000000000000000 /* AppDelegate.h */,
+				1DAE777F0000000000000000 /* Entitlements.plist */,
+				3C7E9A840000000000000000 /* Images.xcassets */,
+				34F6BB100000000000000000 /* Info.plist */,
+				3FDCC4060000000000000000 /* LaunchScreen.xib */,
+				3347A64F0000000000000000 /* MainStoryboard.storyboard */,
+				B408F1500000000000000000 /* ViewController1.h */,
+				13DED9F60000000000000000 /* ViewController2.h */,
+				3FF4BFE70000000000000000 /* ViewController3.h */,
+				27FBD7210000000000000000 /* Supporting Files */,
+			);
+			name = "InitalScreenDemo";
+			sourceTree = "<group>";
+		};
+		27FBD7210000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29AAEBE20000000000000000 /* AppDelegate.m */,
+				2405044B0000000000000000 /* ViewController1.m */,
+				101AEA3C0000000000000000 /* ViewController2.m */,
+				389FC38F0000000000000000 /* ViewController3.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		169193E60000000000000000 /* InitalScreenDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 880448A00000000000000000 /* Build configuration list for PBXNativeTarget "InitalScreenDemo" */;
+			buildPhases = (
+				C44344400000000000000000 /* Sources */,
+				1E19735A0000000000000000 /* Frameworks */,
+				352ED3CF0000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "InitalScreenDemo";
+			productName = "InitalScreenDemo";
+			productReference = 13336A640000000000000000 /* InitalScreenDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDE6E0C00000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 3DCD1EB00000000000000000 /* Build configuration list for PBXProject "InitalScreenDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3E32E4E80000000000000000;
+			productRefGroup = 337FBF0E0000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				169193E60000000000000000 /* InitalScreenDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		352ED3CF0000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38ED8DE60000000000000000 /* Images.xcassets in Resources */,
+				3C4BB7680000000000000000 /* LaunchScreen.xib in Resources */,
+				2FB699B10000000000000000 /* MainStoryboard.storyboard in Resources */,
+				3165AE720000000000000000 /* Info.plist in Resources */,
+				1A1D6AE10000000000000000 /* Entitlements.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C44344400000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81548AF00000000000000000 /* AppDelegate.h in Sources */,
+				2619DF440000000000000000 /* AppDelegate.m in Sources */,
+				7AF827700000000000000000 /* ViewController1.h in Sources */,
+				2073F7AD0000000000000000 /* ViewController1.m in Sources */,
+				104DCD580000000000000000 /* ViewController2.h in Sources */,
+				C89DD9E00000000000000000 /* ViewController2.m in Sources */,
+				3C63B3490000000000000000 /* ViewController3.h in Sources */,
+				350EB6F10000000000000000 /* ViewController3.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24D5C65E0000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = MonoTouch;
+		};
+		3319F8D60000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "InitalScreenDemo";
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DCD1EB00000000000000000 /* Build configuration list for PBXProject "InitalScreenDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24D5C65E0000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+		880448A00000000000000000 /* Build configuration list for PBXNativeTarget "InitalScreenDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3319F8D60000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDE6E0C00000000000000000 /* Project object */;
+}
